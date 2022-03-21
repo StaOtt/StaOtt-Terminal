@@ -1,12 +1,27 @@
 {
   "name": "staott-terminal",
+  "version": "1.0.0",
+  "description": "Terminal des Ministeriums für Staatsotterheit",
+  "main": "dist/index.js",
   "scripts": {
-    "tauri": "tauri"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "@tauri-apps/api": "^1.0.0-rc.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StaOtt/StaOtt-Terminal.git"
   },
-  "devDependencies": {
-    "@tauri-apps/cli": "^1.0.0-rc.7"
-  }
+  "keywords": [
+    "staott",
+    "ddr",
+    "terminal",
+    "electron",
+    "js",
+    "otter"
+  ],
+  "author": "Stridsvagn69420 (https://github.com/Stridsvagn69420)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/StaOtt/StaOtt-Terminal/issues"
+  },
+  "homepage": "https://github.com/StaOtt/StaOtt-Terminal#readme"
 }
