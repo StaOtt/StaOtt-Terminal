@@ -4,6 +4,7 @@
   "description": "Terminal des Ministeriums für Staatsotterheit",
   "main": "dist/index.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/StaOtt/StaOtt-Terminal/issues"
   },
-  "homepage": "https://github.com/StaOtt/StaOtt-Terminal#readme"
+  "homepage": "https://github.com/StaOtt/StaOtt-Terminal#readme",
+  "devDependencies": {
+    "electron": "^17.1.2"
+  }
 }
