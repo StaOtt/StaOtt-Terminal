@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "electron .",
+    "build": "tsc --build tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/StaOtt/StaOtt-Terminal#readme",
   "devDependencies": {
-    "electron": "^17.1.2"
+    "electron": "^17.1.2",
+    "typescript": "^4.6.2"
   }
 }
